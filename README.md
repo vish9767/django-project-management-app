@@ -2,6 +2,10 @@
 
 A full-stack web application built with Django and Django REST Framework, featuring an **interactive frontend** for CRUD operations, third-party API integration, and data visualization capabilities.
 
+**🔗 GitHub Repository:** [https://github.com/vish9767/django-project-management-app](https://github.com/vish9767/django-project-management-app)
+
+**👤 Author:** Vishal (vish9767)
+
 ## 🚀 Features
 
 - **Interactive Web Interface**: Complete CRUD operations through a beautiful, responsive frontend
@@ -28,8 +32,8 @@ A full-stack web application built with Django and Django REST Framework, featur
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd proj3_Socail_booster
+git clone https://github.com/vish9767/django-project-management-app.git
+cd django-project-management-app
 ```
 
 ### 2. Create and Activate Virtual Environment
