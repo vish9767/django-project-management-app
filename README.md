@@ -38,26 +38,15 @@ cd django-project-management-app
 
 ### 2. Create and Activate Virtual Environment
 
-**Windows:**
 ```bash
 python -m venv venv
 venv\Scripts\python.exe  # Use this to run Python commands
 ```
 
-**Linux/Mac:**
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
 ### 3. Install Dependencies
 
 ```bash
-# Windows
 venv\Scripts\python.exe -m pip install -r requirements.txt
-
-# Linux/Mac
-pip install -r requirements.txt
 ```
 
 ### 4. Environment Configuration
@@ -75,21 +64,13 @@ DB_NAME=db.sqlite3
 ### 5. Run Database Migrations
 
 ```bash
-# Windows
-venv\Scripts\python.exe manage.py migrate
-
-# Linux/Mac
 python manage.py migrate
 ```
 
 ### 6. Populate Sample Data (Optional)
 
 ```bash
-# Windows
 venv\Scripts\python.exe manage.py populate_data
-
-# Linux/Mac
-python manage.py populate_data
 ```
 
 This creates 5 sample projects and 17 tasks for testing.
@@ -99,21 +80,13 @@ This creates 5 sample projects and 17 tasks for testing.
 To access the Django admin panel:
 
 ```bash
-# Windows
 venv\Scripts\python.exe manage.py createsuperuser
-
-# Linux/Mac
-python manage.py createsuperuser
 ```
 
 ### 8. Run the Development Server
 
 ```bash
-# Windows
 venv\Scripts\python.exe manage.py runserver
-
-# Linux/Mac
-python manage.py runserver
 ```
 
 The application will be available at `http://localhost:8000/`
@@ -153,8 +126,6 @@ The application will be available at `http://localhost:8000/`
 - Get random inspirational quotes
 - Fetch real-time weather for any city
 - All integrated seamlessly into the UI
-
-For detailed frontend usage, see **FRONTEND_GUIDE.md**
 
 ## 📚 API Documentation
 
