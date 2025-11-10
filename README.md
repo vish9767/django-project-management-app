@@ -2,11 +2,11 @@
 
 A full-stack web application built with Django and Django REST Framework, featuring an **interactive frontend** for CRUD operations, third-party API integration, and data visualization capabilities.
 
-**🔗 GitHub Repository:** [https://github.com/vish9767/django-project-management-app](https://github.com/vish9767/django-project-management-app)
+**GitHub Repository:** [https://github.com/vish9767/django-project-management-app](https://github.com/vish9767/django-project-management-app)
 
-**👤 Author:** Vishal (vish9767)
+**Author:** Vishal (vish9767)
 
-## 🚀 Features
+## Features
 
 - **Interactive Web Interface**: Complete CRUD operations through a beautiful, responsive frontend
 - **Projects Management**: Create, read, update, and delete projects with modal forms
@@ -21,13 +21,13 @@ A full-stack web application built with Django and Django REST Framework, featur
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile
 - **Well-Structured Code**: Clean, maintainable, and well-documented code
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8 or higher
 - pip (Python package manager)
 - Virtual environment (recommended)
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -91,7 +91,7 @@ venv\Scripts\python.exe manage.py runserver
 
 The application will be available at `http://localhost:8000/`
 
-## 🎨 Using the Web Interface
+## Using the Web Interface
 
 ### Quick Start
 1. Open your browser and navigate to: **http://localhost:8000/**
@@ -127,7 +127,7 @@ The application will be available at `http://localhost:8000/`
 - Fetch real-time weather for any city
 - All integrated seamlessly into the UI
 
-## 📚 API Documentation
+## API Documentation
 
 ### Base URL
 ```
@@ -257,7 +257,7 @@ GET /api/external/weather/?city=London
 Query parameters:
 - `city`: City name (default: London)
 
-## 🧪 Testing the API
+## Testing the API
 
 ### Using cURL
 
@@ -316,7 +316,7 @@ response = requests.get('http://localhost:8000/api/dashboard/')
 print(response.json())
 ```
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 proj3_Socail_booster/
@@ -340,7 +340,7 @@ proj3_Socail_booster/
 └── requirements.txt              # Python dependencies
 ```
 
-## 🔧 Technology Stack
+## Technology Stack
 
 - **Backend Framework**: Django 5.2.8
 - **API Framework**: Django REST Framework 3.16.1
@@ -351,7 +351,7 @@ proj3_Socail_booster/
 - **Static Files**: whitenoise
 - **Production Server**: gunicorn
 
-## 🌐 Deployment
+## Deployment
 
 ### Deployment to Vercel/Railway/Render
 
@@ -380,7 +380,7 @@ python manage.py collectstatic --noinput
 web: gunicorn social_booster_app.wsgi --log-file -
 ```
 
-## 🔐 Security Notes
+## Security Notes
 
 - The current `.env` file contains a demo SECRET_KEY for development
 - For production, generate a new SECRET_KEY and keep it secure
@@ -388,7 +388,7 @@ web: gunicorn social_booster_app.wsgi --log-file -
 - Configure proper ALLOWED_HOSTS
 - Use environment variables for sensitive data
 
-## 📝 Design Decisions
+## Design Decisions
 
 1. **SQLite for Development**: Used SQLite for simplicity and portability. Can be easily switched to PostgreSQL/Supabase by updating environment variables.
 
@@ -402,20 +402,20 @@ web: gunicorn social_booster_app.wsgi --log-file -
 
 6. **Sample Data**: Included management command to populate realistic sample data for immediate testing.
 
-## 🎯 Meeting Requirements
+## Meeting Requirements
 
-✅ **CRUD Operations**: Full implementation via REST APIs for Projects and Tasks  
-✅ **Third-Party API Integration**: Two examples (quotes and weather APIs)  
-✅ **Data Visualization**: Dashboard endpoint with statistics and analytics  
-✅ **Django + PostgreSQL**: Django framework with PostgreSQL support (using SQLite for simplicity)  
-✅ **Clean Code**: Well-structured, documented, and maintainable code  
-✅ **README**: Comprehensive documentation with setup and testing instructions  
+**CRUD Operations**: Full implementation via REST APIs for Projects and Tasks  
+**Third-Party API Integration**: Two examples (quotes and weather APIs)  
+ **Data Visualization**: Dashboard endpoint with statistics and analytics  
+**Django + PostgreSQL**: Django framework with PostgreSQL support (using SQLite for simplicity)  
+**Clean Code**: Well-structured, documented, and maintainable code  
+**README**: Comprehensive documentation with setup and testing instructions  
 
-## 🤝 Developer
+## Developer
 
 Created as a demo task for Social Booster Media
 
-## 📞 Support
+## Support
 
 For questions or issues, please refer to the documentation or contact the development team.
 
